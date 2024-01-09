@@ -1,0 +1,47 @@
+'use client';
+import React, { useState } from 'react';
+import ProjectCard from './ProjectCard';
+import { PROJECT_CONTENT } from './constants/Constants';
+import ProjectButton from './ProjectButton';
+
+const ProjectSection = () => {
+    const [showBasedOnTag, setBasedOnTag] = useState('All');
+
+    function handleSelectBasedOnTag(newTag) {
+        setBasedOnTag(newTag);
+    }
+    const filterProjectsBasedOnName = PROJECT_CONTENT.filter((project) =>
+        project.tags.includes(showBasedOnTag));
+
+
+    return (
+        <>
+            <h1 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
+                My Projects
+            </h1>
+            <div className='text-white flex mb-6 flex-row justify-center items-center gap-2 px-6 '>
+                <ProjectButton onClick={handleSelectBasedOnTag}
+                    name='All' isSelected={showBasedOnTag === 'All'} />
+                <ProjectButton onClick={handleSelectBasedOnTag}
+                    name='Main' isSelected={showBasedOnTag === 'Main'} />
+                <ProjectButton onClick={handleSelectBasedOnTag}
+                    name='Mini' isSelected={showBasedOnTag === 'Mini'} />
+            </div>
+            <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
+                {filterProjectsBasedOnName.map((project) => {
+                    return (
+
+                        <ProjectCard key={project.id} title={project.title}
+                            imageLink={project.imageLink}
+                            description={project.description}
+                            gitLink={project.gitLink}
+                            previewLink={project.previewLink} />
+
+                    )
+                })}
+            </div>
+        </>
+    )
+}
+
+export default ProjectSection

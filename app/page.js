@@ -1,14 +1,22 @@
 import Image from 'next/image'
 import HeaderSection from './components/HeaderSection'
 import NavBar from './components/NavBar'
+import AboutSection from './components/AboutSection'
+import ProjectSection from './components/ProjectSection'
+import EmailSection from './components/EmailSection'
+import FooterSection from './components/FooterSection'
 export default function Home() {
   return (
-    <main className="flex min-h-screen justify-start py-6 items-center flex-col bg-[#121212]">
+    <main className="flex min-h-screen  flex-col bg-[#121212] ">
       <NavBar />
-      <div className="container px-14 py-4 mt-12 h-[88vh] flex items-center">
+      <div className="container px-14 py-4 mt-24 mx-auto ">
         <HeaderSection />
-      </div>
+        <AboutSection />
 
+        <ProjectSection />
+        <EmailSection />
+      </div>
+      <FooterSection />
     </main>
   )
 }
