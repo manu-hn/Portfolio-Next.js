@@ -4,13 +4,13 @@ import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/solid';
 
 const ProjectCard = ({ imageLink, title, description, gitLink, previewLink }) => {
     return (
-        <div>
-            <div className='h-52 md:h-72 rounded-t-xl relative bg-contain group'
-                style={{ background: `url(${imageLink})`}}>
+        <div >
+            <div  className='h-52 md:h-72 rounded-t-xl relative bg-cover group'
+                style={{ background: `url(${imageLink})`, backgroundSize : "cover"}}>
                     <div className='overlay absolute top-0 left-0 w-full h-full justify-center items-center
                      bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-1000'>
 
-                        <Link href={gitLink} className='h-14 w-14 border-2 relative mr-2  rounded-full border-gray-800 hover:border-white group/link'>
+                        <Link target='_blank' href={gitLink} className='h-14 w-14 border-2 relative mr-2  rounded-full border-gray-800 hover:border-white group/link'>
                             <CodeBracketIcon className='h-10 w-10 text-gray-500 absolute top-1/2 left-1/2
                             transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-white' />
                         </Link>

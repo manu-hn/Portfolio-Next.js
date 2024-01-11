@@ -9,8 +9,7 @@ import Image from 'next/image';
 const SocialsIcons = () => {
     return (
         <>
-
-            <div className='z-10'>
+            <div className=''>
                 <h5 className='text-xl font-bold text-white my-2'>Let&apos;s Connect</h5>
                 <p className='text-gray-400 mb-4 max-w-md'>{'  '}
                     I&apos;m exploring new opportunities and would love to connect with you! Feel free to drop me a message if you have any questions or just want to say hello. I&apos;ll do my best to respond!

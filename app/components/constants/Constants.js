@@ -51,16 +51,16 @@ export const PROJECT_CONTENT=[
         id : 1,
         title : "SnapSnack - A Food App",
         description : "",
-        imageLink : "/images/MyAnime.jpg",
+        imageLink : "/images/SnapSnack.png",
         tags : ['All', 'Main'],
-        gitLink : '/',
+        gitLink : 'https://github.com/manu-hn/SnapSnack',
         previewLink : '/'
     },
     {
         id : 2,
         title : "Quote Generator",
         description : "",
-        imageLink : "/images/MyAnime.jpg",
+        imageLink : "/images/quotes.png",
         tags : ['All', 'Mini'],
         gitLink : '/',
         previewLink : '/'
@@ -70,7 +70,7 @@ export const PROJECT_CONTENT=[
         id : 3,
         title : "NetFlix - A Movie App",
         description : "",
-        imageLink : "/images/MyAnime.jpg",
+        imageLink : "/images/construction.jpg",
         tags : ['All', 'Main'],
         gitLink : '/',
         previewLink : '/'
@@ -80,27 +80,18 @@ export const PROJECT_CONTENT=[
         id : 4,
         title : "YouTube Clone",
         description : "",
-        imageLink : "/images/MyAnime.jpg",
+        imageLink : "/images/construction.jpg",
         tags : ['All', 'Main'],
         gitLink : '/',
         previewLink : '/'
     }
-    ,
-    {
-        id : 5,
-        title : "ProductCart ",
-        description : "",
-        imageLink : "/images/MyAnime.jpg",
-        tags : ['All', 'Mini'],
-        gitLink : '/',
-        previewLink : '/'
-    }
+    
     ,
     {
         id : 6,
         title : "Image Gallery",
         description : "",
-        imageLink : "/images/MyAnime.jpg",
+        imageLink : "/images/gallery.png",
         tags : ['All', 'Mini'],
         gitLink : '/',
         previewLink : '/'
