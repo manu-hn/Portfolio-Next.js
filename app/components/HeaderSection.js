@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
+import Link from 'next/link';
 
 const HeaderSection = () => {
     return (
@@ -38,8 +39,14 @@ const HeaderSection = () => {
 
 
                     <div className='mt-10'>
-                        <button className=' px-7 py-3 rounded-full w-full sm:w-fit mr-5 bg-transparent border-2 border-green-500 hover:bg-green-400 text-white hover:text-black'>Hire Me</button>
-                        <button className=' px-7 py-3 rounded-full w-full sm:w-fit bg-transparent border-2 border-green-500 hover:bg-green-400 text-white mt-4 hover:text-black'>Download CV</button>
+
+                        <Link href={'#hire-me'}><button className=' px-7 py-3 rounded-full w-full sm:w-fit mr-5 bg-transparent border-2 border-green-500 hover:bg-green-400 text-white hover:text-black'>Hire Me</button>
+                        </Link>
+                        <Link target='_blank' href={`https://flowcv.com/resume/b94851sj2s`}>
+                            <button className=' px-7 py-3 rounded-full w-full sm:w-fit bg-transparent border-2 border-green-500 hover:bg-green-400 text-white mt-4 hover:text-black'>Download CV</button>
+
+                        </Link>
+
                     </div>
                 </div>
                 <div className="col-span-5 place-self-center mt-4 lg:mt-0">

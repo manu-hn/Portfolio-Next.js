@@ -32,7 +32,7 @@ const EmailSection = () => {
     // }
 
     return (
-        <div className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative ' >
+        <div id='hire-me' className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative ' >
             <SocialsIcons />
             <div>
                 <form className='flex flex-col ' >

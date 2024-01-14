@@ -15,13 +15,15 @@ const ProjectSection = () => {
 
 
     return (
-        <>
+        <div id='projects'>
             <h1 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
                 My Projects
             </h1>
             <div className='text-white flex mb-6 flex-row justify-center items-center gap-2 px-6 '>
                 <ProjectButton onClick={handleSelectBasedOnTag}
                     name='All' isSelected={showBasedOnTag === 'All'} />
+                <ProjectButton onClick={handleSelectBasedOnTag}
+                    name='FullStack' isSelected={showBasedOnTag === 'FullStack'} />
                 <ProjectButton onClick={handleSelectBasedOnTag}
                     name='Main' isSelected={showBasedOnTag === 'Main'} />
                 <ProjectButton onClick={handleSelectBasedOnTag}
@@ -40,7 +42,7 @@ const ProjectSection = () => {
                     )
                 })}
             </div>
-        </>
+        </div>
     )
 }
 

@@ -7,7 +7,7 @@ import EmailSection from './components/EmailSection'
 import FooterSection from './components/FooterSection'
 export default function Home() {
   return (
-    <main className="flex min-h-screen  flex-col bg-[#121212] ">
+    <main className="scroll-smooth flex min-h-screen  flex-col bg-[#121212] ">
       <NavBar />
       <div className="container px-14 py-4 mt-24 mx-auto ">
         <HeaderSection  />

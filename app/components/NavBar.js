@@ -17,15 +17,15 @@ const navLink = [
     },
     {
         title: 'Contact',
-        path: "#contact"
+        path: "#hire-me"
     }
 ]
 
 const NavBar = () => {
     const [isNavBarOpen, setIsNavBarOpen] = useState(false)
     return (
-        <nav className='w-full border-b-[0.5px] border-gray-200 px-10 py-6 fixed top-0 left-0 ring-0 z-10 bg-black bg-opacity-95'>
-            <div className='flex w-full justify-between items-center'>
+        <nav className='w-full border-b-[0.5px] border-gray-200 px-10 py-6 fixed top-0 left-0 ring-0 z-10 bg-black bg-opacity-95 container'>
+            <div className='flex w-full justify-between items-center '>
                 <Link href={'/'}>
                     {/* <Image className='' src={'/images/HeaderNoBg.png'} alt='Header Logo' width={100} height={60} /> */}
                     <h1 className='font-semibold text-3xl italic sm:text-sm md:text-3xl lg:text-4xl'>Manu H N</h1>

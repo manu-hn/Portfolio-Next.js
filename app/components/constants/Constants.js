@@ -58,14 +58,13 @@ export const PROJECT_CONTENT=[
     },
     {
         id : 2,
-        title : "Quote Generator",
+        title : "Easy Estate - A Real Estate Web App",
         description : "",
-        imageLink : "/images/quotes.png",
-        tags : ['All', 'Mini'],
+        imageLink : "/images/construction.jpg",
+        tags : ['All','FullStack'],
         gitLink : '/',
         previewLink : '/'
-    }
-    ,
+    },
     {
         id : 3,
         title : "NetFlix - A Movie App",
@@ -74,19 +73,26 @@ export const PROJECT_CONTENT=[
         tags : ['All', 'Main'],
         gitLink : '/',
         previewLink : '/'
-    }
-    ,
+    },
     {
-        id : 4,
+        id :4 ,
         title : "YouTube Clone",
         description : "",
         imageLink : "/images/construction.jpg",
         tags : ['All', 'Main'],
         gitLink : '/',
         previewLink : '/'
+    },
+    {
+        id : 5,
+        title : "Quote Generator",
+        description : "",
+        imageLink : "/images/quotes.png",
+        tags : ['All', 'Mini'],
+        gitLink : '/',
+        previewLink : '/'
     }
-    
-    ,
+,
     {
         id : 6,
         title : "Image Gallery",
