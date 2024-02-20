@@ -60,35 +60,35 @@ export const PROJECT_CONTENT=[
         id : 2,
         title : "Easy Estate - A Real Estate Web App",
         description : "",
-        imageLink : "/images/construction.jpg",
+        imageLink : "/images/easyEstates.png",
         tags : ['All','FullStack'],
-        gitLink : '/',
-        previewLink : '/'
+        gitLink : 'https://github.com/manu-hn/easyEstates',
+        previewLink : 'https://github.com/manu-hn/easyEstates'
     },
     {
         id : 3,
         title : "NetFlix - A Movie App",
         description : "",
         imageLink : "/images/construction.jpg",
-        tags : ['All', 'Main'],
+        tags : ['All', 'React'],
         gitLink : '/',
         previewLink : '/'
     },
     {
         id :4 ,
-        title : "YouTube Clone",
+        title : "ParkSync - Parking Management System",
         description : "",
-        imageLink : "/images/construction.jpg",
-        tags : ['All', 'Main'],
-        gitLink : '/',
-        previewLink : '/'
+        imageLink : "/images/ParkSync.png",
+        tags : ['All', 'FullStack'],
+        gitLink : 'https://github.com/manu-hn/ParkingLot',
+        previewLink : 'https://github.com/manu-hn/ParkingLot'
     },
     {
         id : 5,
         title : "Quote Generator",
         description : "",
         imageLink : "/images/quotes.png",
-        tags : ['All', 'Mini'],
+        tags : ['All', 'React'],
         gitLink : '/',
         previewLink : '/'
     }
@@ -98,7 +98,7 @@ export const PROJECT_CONTENT=[
         title : "Image Gallery",
         description : "",
         imageLink : "/images/gallery.png",
-        tags : ['All', 'Mini'],
+        tags : ['All', 'React'],
         gitLink : '/',
         previewLink : '/'
     }

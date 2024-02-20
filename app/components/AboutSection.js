@@ -16,7 +16,7 @@ const AboutSection = () => {
     }
 
     return (
-        <div id='about' className='text-white h-[180vh] md:h-[150vh] 2xl:h-[90vh]  mt-8 '>
+        <div id='about' className='text-white h-[180vh] md:h-[150vh] 2xl:h-[90vh]  my-16 '>
             <div className='md:grid md:grid-cols-2 gap-8 items-center px-4 py-8 xl:gap-16 sm:py-16 xl:px-16 '>
                 <Image src={'/images/About.png'} height={500} width={500} className='' alt='About Image' />
 

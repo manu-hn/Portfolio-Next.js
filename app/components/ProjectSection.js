@@ -25,9 +25,8 @@ const ProjectSection = () => {
                 <ProjectButton onClick={handleSelectBasedOnTag}
                     name='FullStack' isSelected={showBasedOnTag === 'FullStack'} />
                 <ProjectButton onClick={handleSelectBasedOnTag}
-                    name='Main' isSelected={showBasedOnTag === 'Main'} />
-                <ProjectButton onClick={handleSelectBasedOnTag}
-                    name='Mini' isSelected={showBasedOnTag === 'Mini'} />
+                    name='React' isSelected={showBasedOnTag === 'React'} />
+               
             </div>
             <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
                 {filterProjectsBasedOnName.map((project) => {
