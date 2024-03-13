@@ -35,7 +35,7 @@ const HeaderSection = () => {
                         </div>
                     </h1>
 
-                    <p className='text-xs sm:text-sm md:text-base xl:text-xl text-justify mb-6'>I&apos;m ManuHN, a MERN Stack wizard specializing in React.js, Next.js, and Java. I weave magic with JavaScript, style using Tailwind CSS, and bring creations to life with Git. Let&apos;s build something awesome together! 🚀</p>
+                    <p className='text-xs sm:text-sm md:text-base xl:text-xl text-justify mb-6 text-white'>I&apos;m ManuHN, a MERN Stack wizard specializing in React.js, Next.js, and Java. I weave magic with JavaScript, style using Tailwind CSS, and bring creations to life with Git. Let&apos;s build something awesome together! 🚀</p>
 
 
                     <div className='mt-10'>
