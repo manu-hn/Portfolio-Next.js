@@ -28,9 +28,9 @@ const NavBar = () => {
             <div className='flex w-full justify-between items-center '>
                 <Link href={'/'}>
                     {/* <Image className='' src={'/images/HeaderNoBg.png'} alt='Header Logo' width={100} height={60} /> */}
-                    <h1 className='font-semibold text-3xl italic sm:text-sm md:text-3xl lg:text-4xl'>Manu H N</h1>
+                    <h1 className='font-semibold text-3xl italic sm:text-sm md:text-3xl lg:text-4xl text-white'>Manu H N</h1>
                 </Link>
-                <div className='mobile-menu block md:hidden '>
+                {/* <div className='mobile-menu block md:hidden '>
                     {
                         !isNavBarOpen ? (
                             <button onClick={()=>setIsNavBarOpen(true)} className='flex items-center px-3 py-2 border rounded border-slate-300 text-slate-300 hover:text-white hover:border-white'>
@@ -42,8 +42,8 @@ const NavBar = () => {
                             </button>
                         )
                     }
-                </div>
-                <div className='menu hidden md:block md:w-auto' id='navbar'>
+                </div> */}
+                {/* <div className='menu hidden md:block md:w-auto' id='navbar'>
                     <ul className='flex p-5 md:p-0 md:flex-row md:space-x-8 mt-0'>
                         {
                             navLink.map((link, index) => {
@@ -55,7 +55,7 @@ const NavBar = () => {
                             })
                         }
                     </ul>
-                </div>
+                </div> */}
             </div>
             {isNavBarOpen ? <MenuForMobile links={navLink} />: null}
         </nav>
