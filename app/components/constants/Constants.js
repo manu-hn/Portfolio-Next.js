@@ -22,7 +22,7 @@ export const CARD_CONTENT = [
         title: "Education",
         id: "education",
         content: (
-            <ul  className='list-disc pl-2'>
+            <ul className='list-disc pl-2'>
                 <li> BE - <q>Govt. Engg. College, Ramanagara</q></li>
                 <li> MERN Stack Professional Course, <q>JSpiders</q></li>
 
@@ -33,7 +33,7 @@ export const CARD_CONTENT = [
         title: "Certifications",
         id: "certifications",
         content: (
-            <ul  className='list-disc pl-2'>
+            <ul className='list-disc pl-2'>
                 <li> Frontend Development Libraries - freeCodeCamp </li>
                 <li> Responsive Web Design - freeCodeCamp </li>
                 <li> Introduction to Software Engineering Job
@@ -46,62 +46,71 @@ export const CARD_CONTENT = [
 
 //! For Project Section
 
-export const PROJECT_CONTENT=[
+export const PROJECT_CONTENT = [
     {
-        id : 1,
-        title : "SnapSnack - A Food App",
-        description : "",
-        imageLink : "/images/SnapSnack.png",
-        tags : ['All', 'Main'],
-        gitLink : 'https://github.com/manu-hn/SnapSnack',
-        previewLink : '/'
+        id: 1,
+        title: "SnapSnack - A Food App",
+        description: "",
+        imageLink: "/images/SnapSnack.png",
+        tags: ['All', 'Main'],
+        gitLink: 'https://github.com/manu-hn/SnapSnack',
+        previewLink: '/'
     },
     {
-        id : 2,
-        title : "Easy Estate - A Real Estate Web App",
-        description : "",
-        imageLink : "/images/easyEstates.png",
-        tags : ['All','FullStack'],
-        gitLink : 'https://github.com/manu-hn/easyEstates',
-        previewLink : 'https://github.com/manu-hn/easyEstates'
+        id: 2,
+        title: "Easy Estate - A Real Estate Web App",
+        description: "",
+        imageLink: "/images/easyEstates.png",
+        tags: ['All', 'FullStack'],
+        gitLink: 'https://github.com/manu-hn/easyEstates',
+        previewLink: 'https://github.com/manu-hn/easyEstates'
     },
     {
-        id : 3,
-        title : "NetFlix - A Movie App",
-        description : "",
-        imageLink : "/images/construction.jpg",
-        tags : ['All', 'React'],
-        gitLink : '/',
-        previewLink : '/'
+        id: 3,
+        title: "NetFlix - A Movie App",
+        description: "",
+        imageLink: "/images/construction.jpg",
+        tags: ['All', 'React'],
+        gitLink: '/',
+        previewLink: '/'
     },
     {
-        id :4 ,
-        title : "ParkSync - Parking Management System",
-        description : "",
-        imageLink : "/images/ParkSync.png",
-        tags : ['All', 'FullStack'],
-        gitLink : 'https://github.com/manu-hn/ParkingLot',
-        previewLink : 'https://github.com/manu-hn/ParkingLot'
+        id: 4,
+        title: "YouTube Clone",
+        description: "",
+        imageLink: "/images/YouTube.png",
+        tags: ['All', 'React'],
+        gitLink: 'https://github.com/manu-hn/YouTubeClone',
+        previewLink: 'https://youtube-manuhn.netlify.app/'
     },
     {
-        id : 5,
-        title : "Quote Generator",
-        description : "",
-        imageLink : "/images/quotes.png",
-        tags : ['All', 'React'],
-        gitLink : '/',
-        previewLink : '/'
-    }
-,
+        id: 5,
+        title: "ParkSync - Parking Management System",
+        description: "",
+        imageLink: "/images/ParkSync.png",
+        tags: ['All', 'FullStack'],
+        gitLink: 'https://github.com/manu-hn/ParkingLot',
+        previewLink: 'https://github.com/manu-hn/ParkingLot'
+    },
     {
-        id : 6,
-        title : "Image Gallery",
-        description : "",
-        imageLink : "/images/gallery.png",
-        tags : ['All', 'React'],
-        gitLink : '/',
-        previewLink : '/'
+        id: 6,
+        title: "Quote Generator",
+        description: "",
+        imageLink: "/images/quotes.png",
+        tags: ['All', 'React'],
+        gitLink: '/',
+        previewLink: '/'
     }
     ,
-   
+    {
+        id: 7,
+        title: "Image Gallery",
+        description: "",
+        imageLink: "/images/gallery.png",
+        tags: ['All', 'React'],
+        gitLink: '/',
+        previewLink: '/'
+    }
+    ,
+
 ]
