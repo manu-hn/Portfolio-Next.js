@@ -15,11 +15,11 @@ const ProjectSection = () => {
 
 
     return (
-        <div id='projects'>
-            <h1 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
+        <div id='projects' className=' mt-48 md:mt-28 sm:mt-36'>
+            <h1 className='text-center text-lg md:text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
                 My Projects
             </h1>
-            <div className='text-white flex mb-6 flex-row justify-center items-center gap-2 px-6 '>
+            <div className='text-white flex mb-6 flex-row justify-center items-center gap-2 px-3 md:px-6 '>
                 <ProjectButton onClick={handleSelectBasedOnTag}
                     name='All' isSelected={showBasedOnTag === 'All'} />
                 <ProjectButton onClick={handleSelectBasedOnTag}

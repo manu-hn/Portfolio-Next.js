@@ -7,7 +7,7 @@ const ProjectButton = ({name, onClick, isSelected}) => {
   return (
     <>
       <button className={`${isButtonSelected} rounded-full border-2 
-      px-8 py-2 text-xl cursor-pointer`}
+      px-6 md:px-8 py-2 text-sm md:text-xl cursor-pointer`}
       onClick={()=>onClick(name)}>
        {name}</button>
 

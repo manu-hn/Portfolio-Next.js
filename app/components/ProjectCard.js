@@ -10,13 +10,13 @@ const ProjectCard = ({ imageLink, title, description, gitLink, previewLink }) =>
                     <div className='overlay absolute top-0 left-0 w-full h-full justify-center items-center
                      bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-1000'>
 
-                        <Link target='_blank' href={gitLink} className='h-14 w-14 border-2 relative mr-2  rounded-full border-gray-800 hover:border-white group/link'>
-                            <CodeBracketIcon className='h-10 w-10 text-gray-500 absolute top-1/2 left-1/2
+                        <Link target='_blank' href={gitLink} className='w-10 h-10 md:h-14 md:w-14 border-2 relative mr-2  rounded-full border-gray-800 hover:border-white group/link'>
+                            <CodeBracketIcon className='h-6 w-6 md:h-10 md:w-10 text-gray-500 absolute top-1/2 left-1/2
                             transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-white' />
                         </Link>
                         
-                        <Link href={previewLink} className='h-14 w-14 border-2 relative  rounded-full border-gray-800 hover:border-white group/link'>
-                            <EyeIcon className='h-10 w-10 text-gray-500 absolute top-1/2 left-1/2
+                        <Link href={previewLink} className='w-10 h-10 md:h-14 md:w-14 border-2 relative  rounded-full border-gray-800 hover:border-white group/link'>
+                            <EyeIcon className='h-6 w-6 md:h-10 md:w-10 text-gray-500 absolute top-1/2 left-1/2
                             transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-white' />
                         </Link>
                      </div>

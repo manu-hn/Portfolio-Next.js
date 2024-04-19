@@ -9,7 +9,7 @@ const CardButton = ({ active, selectCard, children }) => {
     return (
         <>
             <button onClick={selectCard}>
-                <p className={`mr-3 font-semibold  hover:text-white ${isButtonActive}`}>
+                <p className={`mr-3 font-semibold text-left  hover:text-white ${isButtonActive}`}>
                     {children}
                 </p>
             </button>
