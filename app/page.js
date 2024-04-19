@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="scroll-smooth flex min-h-screen  flex-col bg-[#121212] ">
       <NavBar />
-      <div className="container px-14 py-4 mt-24 mx-auto ">
+      <div className="container px-10 md:px-14 py-4 mt-24 mx-auto ">
         <HeaderSection  />
         <AboutSection />
 

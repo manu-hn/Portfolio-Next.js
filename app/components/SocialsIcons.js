@@ -15,13 +15,13 @@ const SocialsIcons = () => {
                     I&apos;m exploring new opportunities and would love to connect with you! Feel free to drop me a message if you have any questions or just want to say hello. I&apos;ll do my best to respond!
                 </p>
                 <div className='socials flex flex-row gap-2 items-center'>
-                    <Link href={`https://github.com/manu-hn`} className='text-white'>
+                    <Link target='_blank' href={`https://github.com/manu-hn`} className='text-white'>
                         <Image src={GitHub} alt='GitHub Icon' className='text-white' />
                     </Link>
-                    <Link href={`https://www.linkedin.com/in/manu-hn/`}>
+                    <Link target='_blank' href={`https://www.linkedin.com/in/manu-hn/`}>
                         <Image src={LinkedIn} alt='LinkedIn Icon' />
                     </Link>
-                    <Link href={`https://www.instagram.com/black_droid_05/`}>
+                    <Link target='_blank' href={`https://www.instagram.com/black_droid_05/`}>
                         <Image src={Instagram} alt='Instagram Icon' className='w-10' />
                     </Link>
                 </div>
