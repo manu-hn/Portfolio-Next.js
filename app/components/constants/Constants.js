@@ -45,11 +45,24 @@ export const CARD_CONTENT = [
         title: "Experience",
         id: "experience",
         content: (
-            <ul className='list-disc pl-2'>
-                <li><span className="font-bold">Web Developer Intern</span> at CODSOFT from September 10, 2023, to October 10, 2023. </li>
-                <li>Utilized HTML, CSS, and JavaScript to complete assigned UI tasks. </li>
-                <li>Demonstrated strong communication and collaboration skills within the team environment.</li>
-            </ul>
+            <ol className='list-decimal pl-2' type="1">
+                <li>
+                    <h1 className="text-xl font-bold leading-6 my-2">Full Stack Developer-(Next.js) <span className="font-light text-[1rem]">( 05/March/2024 - Present )</span></h1>
+                    <ul className="list-disc">
+                        <li> Developed and implemented reusable, SEO-friendly components using Next.js, TypeScript, and Tailwind CSS.</li>
+                        <li>Ensured optimal performance and responsiveness of web applications across various devices and platforms.</li>
+                        <li>Collaborated with the design team to translate UI/UX wireframes into functional and visually appealing web pages.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h1 className="text-xl font-bold leading-6 my-2">Web Developer Intern <span className="font-light text-[1rem]">(10/September/2023 - 10/October/2023)</span> </h1>
+                    <ul className="list-disc">
+                        <li>Web Developer Intern at CODSOFT from September 10, 2023, to October 10, 2023. </li>
+                        <li>Utilized HTML, CSS, and JavaScript to complete assigned UI tasks. </li>
+                        <li>Demonstrated strong communication and collaboration skills within the team environment.</li>
+                    </ul>
+                </li>
+            </ol>
         )
     },
 ]

@@ -15,7 +15,7 @@ const ProjectSection = () => {
 
 
     return (
-        <div id='projects' className=' mt-48 md:mt-28 sm:mt-36'>
+        <div id='projects' className=' mt-[45rem] md:mt-80 sm:mt-36'>
             <h1 className='text-center text-lg md:text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
                 My Projects
             </h1>
