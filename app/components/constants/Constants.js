@@ -49,7 +49,9 @@ export const CARD_CONTENT = [
                 <li>
                     <h1 className="text-xl font-bold leading-6 my-2">Full Stack Developer-(Next.js) <span className="font-light text-[1rem]">( 05/March/2024 - Present )</span></h1>
                     <ul className="list-disc">
-                        <li> Developed and implemented reusable, SEO-friendly components using Next.js, TypeScript, and Tailwind CSS.</li>
+
+                        <li>  Developed and implemented SEO-friendly, reusable components using Next.js, TypeScript, and Tailwind CSS.</li>
+                        <li> Optimized images and streamlined code, reducing the build size from 121.8kb to 41.2kb.</li>
                         <li>Ensured optimal performance and responsiveness of web applications across various devices and platforms.</li>
                         <li>Collaborated with the design team to translate UI/UX wireframes into functional and visually appealing web pages.</li>
                     </ul>
@@ -57,9 +59,9 @@ export const CARD_CONTENT = [
                 <li>
                     <h1 className="text-xl font-bold leading-6 my-2">Web Developer Intern <span className="font-light text-[1rem]">(10/September/2023 - 10/October/2023)</span> </h1>
                     <ul className="list-disc">
-                        <li>Web Developer Intern at CODSOFT from September 10, 2023, to October 10, 2023. </li>
-                        <li>Utilized HTML, CSS, and JavaScript to complete assigned UI tasks. </li>
-                        <li>Demonstrated strong communication and collaboration skills within the team environment.</li>
+                        <li>Effectively resolved front-end issues to ensure smooth functionality and user experience.</li>
+                        <li>Collaborated with teams to promptly address reported bugs, enhancing teamwork and project efficiency.</li>
+                        <li>Contributed to code reviews, providing insights that improved code quality and system stability.</li>
                     </ul>
                 </li>
             </ol>
